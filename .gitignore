@@ -1,0 +1,12 @@
+# 這個 repo 只放說明與條款；安裝包放在 GitHub Releases，不進 git 歷史
+*.zip
+*.exe
+*.dll
+*.stl
+*.3mf
+*.obj
+settings.json
+filaments.json
+color_overrides.json
+output/
+.venv*/
