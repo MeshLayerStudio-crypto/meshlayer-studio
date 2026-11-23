@@ -2,7 +2,7 @@
 
 > **Language Notice:** This document is an English translation of the Traditional Chinese Terms of Use (`docs\TERMS_OF_USE.md`). In the event of any discrepancy or conflict between the two versions, the Traditional Chinese version shall prevail.
 
-**Version:** 2.3 | **Last Revised:** 2026-11-22 | **Provider:** MeshLayer Studio | **Contact:** meshlayer.studio@gmail.com
+**Version:** 2.3 | **Last Revised:** 2026-11-23 | **Provider:** MeshLayer Studio | **Contact:** meshlayer.studio@gmail.com
 
 ---
 
@@ -21,7 +21,7 @@ The Software includes or invokes third-party open-source components and AI model
 The bundled font *Noto Sans TC* is licensed under the SIL Open Font License (OFL) 1.1. User-imported fonts, third-party `.scad` files you load, and the optional external program OpenSCAD are governed solely by their respective authors' licenses, and you are responsible for verifying whether they permit creating and distributing finished products. Any in-app warning regarding fonts marked "restricted embedding" is a technical aid only and does not constitute legal advice.
 
 ### 3.2-0 Microsoft Visual C++ Runtime
-On Windows, the Software requires the Microsoft Visual C++ Redistributable runtime, which is **not bundled with the Software** (aside from runtime libraries packaged internally within certain third-party Python packages such as NumPy). You may download and install it free of charge from Microsoft's official website. The `Install_VC_Runtime.bat` script in the release package directs you to Microsoft's official download link, and the Software will prompt you at startup if the runtime is missing. The runtime is governed by the Microsoft Software License Terms (<https://visualstudio.microsoft.com/license-terms/>).
+The Software requires the Microsoft Visual C++ Redistributable runtime, which is **not bundled with the Software** (aside from runtime libraries packaged internally within certain third-party Python packages such as NumPy). You may download and install it free of charge from Microsoft's official website. The `Install_VC_Runtime.bat` script in the release package directs you to Microsoft's official download link, and the Software will prompt you at startup if the runtime is missing. The runtime is governed by the Microsoft Software License Terms (<https://visualstudio.microsoft.com/license-terms/>).
 
 ### 3.2-1 Trademark Notice
 MeshLayer Studio is an independently developed project. It is **not affiliated with, licensed by, sponsored by, or endorsed by Bambu Lab**. "Bambu Lab" and "Bambu Studio" are trademarks of their respective owners and are referenced solely for nominative purposes to indicate compatibility with exported 3MF files. "Gridfinity" is the name of the modular storage system created by Zack Freedman; the Software is not affiliated with or endorsed by him, and the name is used solely to indicate dimensional compatibility. "Windows," "Microsoft," "OpenSCAD," and all other third-party product names, logos, and brands remain the property of their respective owners.
@@ -65,11 +65,9 @@ Your license under these Terms terminates automatically without notice if you ma
 2. **Severability.** If any provision of these Terms is held invalid, illegal, or unenforceable by a court of competent jurisdiction, that provision shall be enforced to the maximum extent permissible and the remaining provisions of these Terms shall remain in full force and effect.
 3. **No Waiver.** The Provider's failure to enforce any right or provision of these Terms shall not constitute a waiver of such right or provision.
 
-### 3.10 Supported Platforms
-The Software supports Windows 10 / 11 (64-bit). In-app descriptions and release notes prevail if updated.
-
-### 3.10-1 Program Version Notice
-The Software offers an optional "program version notice" feature that is off by default. Only if you turn it on in the Help menu, or manually run "Check for a new version of the program", does the Software connect to the Provider's public release page on GitHub (`MeshLayerStudio-crypto/meshlayer-studio`) to read the latest version information. This feature is notification-only: it **never downloads, installs, or replaces any file by itself**. You must obtain a new version yourself from the download page, and you are encouraged to compare the SHA-256 hash published there. A new version may come with different terms; when you obtain and use it, the Terms of Use and Privacy Policy delivered with that version apply. The Provider does not guarantee the timing, frequency, or continuation of any update and has no obligation to provide updates or compatibility maintenance. Connection data (such as your IP address) is processed by GitHub under its own privacy policy; see Section 4.4 of the Privacy Policy.
+### 3.10 Supported Platforms and Version Notice
+1. **Supported Platforms.** The Software supports Windows 10 / 11 (64-bit); in-app descriptions and release notes prevail if updated.
+2. **Optional Program Version Notice.** The Software offers an optional "program version notice" feature that is off by default. Only if you enable it in the Help menu or manually click "Check for a new version of the program" does the Software connect to the Provider's public GitHub release page (`MeshLayerStudio-crypto/meshlayer-studio`) to read the latest version info. This feature is notification-only and **never downloads, installs, or replaces any file automatically**. You must download new versions yourself (verifying the published SHA-256 hash is recommended), and any new version is governed by its accompanying terms. The Provider has no obligation to provide updates or compatibility maintenance; see Section 4.4 of the Privacy Policy for connection data handling.
 
 ### 3.11 Voluntary Support Terms
 1. **Legal Nature (Gratuitous Gift).** Any financial support provided to the Software or the Provider is legally a **pure, unconditional gift** (Article 406 of Taiwan's Civil Code) and does not constitute a sale of goods, contract for work, commissioned development, partnership, employment, or any compensated bilateral contract. Receiving support creates no legal obligation for the Provider to develop specific features, prioritize bug fixes, provide technical support, or maintain the Software indefinitely.
