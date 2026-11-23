@@ -55,7 +55,7 @@ All images, models and settings stay on your computer. The app has no account sy
 
 ## License and notices
 
-MeshLayer Studio is free software provided "as is"; the source code is not published. The release package contains third-party components under their own licenses — see `THIRD_PARTY_NOTICES.txt` and the `licenses` folder. Independent project; not affiliated with, endorsed by, or sponsored by Bambu Lab. "Bambu Lab" and "Bambu Studio" are trademarks of their owners. The MeshLayer Studio name, logo and icons are all rights reserved and are not covered by any license to reuse them.
+MeshLayer Studio is free software provided "as is"; the source code is not published. This repository contains only documentation and the website; the "Source code (zip / tar.gz)" links on the Release page are generated automatically by GitHub from these files and do not include the program's source code. The release package contains third-party components under their own licenses — see `THIRD_PARTY_NOTICES.txt` and the `licenses` folder. Independent project; not affiliated with, endorsed by, or sponsored by Bambu Lab. "Bambu Lab" and "Bambu Studio" are trademarks of their owners. The MeshLayer Studio name, logo and icons are all rights reserved and are not covered by any license to reuse them.
 
 ## Support the project
 
@@ -109,7 +109,7 @@ AI 圖片轉 3D 是**選用功能**，要在程式內另外安裝（「安裝 AI
 
 ## 授權與聲明
 
-免費軟體，依「現況」提供，不公開原始碼。發布包內含第三方元件，各依其授權，見 `THIRD_PARTY_NOTICES.txt` 與 `licenses` 資料夾。本專案為獨立開發，與 Bambu Lab 無隸屬、授權、贊助或背書關係；「Bambu Lab」「Bambu Studio」為其所有人之商標。MeshLayer Studio 名稱、標誌與圖示保留所有權利，不含任何再使用授權。
+免費軟體，依「現況」提供，不公開原始碼。本 repo 只有文件與網頁；Release 頁面的「Source code (zip／tar.gz)」是 GitHub 自動產生的，內容就是這些文件，不含程式原始碼。發布包內含第三方元件，各依其授權，見 `THIRD_PARTY_NOTICES.txt` 與 `licenses` 資料夾。本專案為獨立開發，與 Bambu Lab 無隸屬、授權、贊助或背書關係；「Bambu Lab」「Bambu Studio」為其所有人之商標。MeshLayer Studio 名稱、標誌與圖示保留所有權利，不含任何再使用授權。
 
 ## 贊助
 
