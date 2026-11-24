@@ -96,10 +96,6 @@ Tencent Hunyuan3D-2 (hy3dgen 2.0.2) - code and model weights
   Components listed in Hunyuan's NOTICE (for example Stable Diffusion,
   MIT / CreativeML Open RAIL++-M) keep their own terms.
 
-TripoSR (optional engine, installed only by "setup_ai.bat triposr")
-  Stability AI / Tripo AI. License per its repository (MIT at time of
-  writing). Verify at install time.
-
 #### BEGIN GENERATED: ai-packages (do not edit by hand; run tools/legal_tool.py notices) ####
 Python packages in the AI environment .venv_ai (auto-generated; installed from PyPI on the user's computer by setup_ai.bat,
 NOT part of the release package; 109 packages):
@@ -382,11 +378,6 @@ Third-party components that are not ordinary pip packages. Status: ok = no extra
       * There is an Acceptable Use Policy; large-scale commercial use and hosted services have further conditions, so read the LICENSE
       * This project must not redistribute the weights or the third_party folder on the user's behalf
       * Components listed in the NOTICE (for example Stable Diffusion's CreativeML Open RAIL++-M) keep their own terms
-  - TripoSR (optional engine, setup_ai.bat triposr)
-      license: MIT (the code, and the license tag of the stabilityai/TripoSR weights on Hugging Face)   status: conditions
-      * Installed by the user (git clone and weight download); this program does not redistribute it. Anyone who redistributes it must keep the MIT license and copyright notice
-      * The license files in the repository and on the model page at install time are the ones that apply
-      * Not tested locally: it needs torchmcubes compiled with CUDA, which is hard for ordinary users, so it is an advanced option without support
   - PyTorch and CUDA runtime libraries (the torch+cu126 wheel contains NVIDIA components)
       license: BSD-3-Clause; NVIDIA CUDA components are under the NVIDIA EULA   status: ok
       * Installed by the user's own pip only and not distributed in the release package; do not package or distribute .venv_ai
