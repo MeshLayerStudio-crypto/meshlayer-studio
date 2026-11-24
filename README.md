@@ -31,15 +31,15 @@ MeshLayer Studio works *before* slicing. It does not generate G-code or supports
 
 ## Download and first run
 
-1. Download `MeshLayerStudio_1.0.3_win64.zip` from the [Releases](https://github.com/MeshLayerStudio-crypto/meshlayer-studio/releases/latest) page.
+1. Download `MeshLayerStudio_1.0.5_win64.zip` from the [Releases](https://github.com/MeshLayerStudio-crypto/meshlayer-studio/releases/latest) page.
 2. **Verify the file (recommended).** In PowerShell:
    ```powershell
-   Get-FileHash .\MeshLayerStudio_1.0.3_win64.zip -Algorithm SHA256
+   Get-FileHash .\MeshLayerStudio_1.0.5_win64.zip -Algorithm SHA256
    ```
    Compare the result with the SHA-256 shown on the release page.
 3. Unzip to any folder (keep `MeshLayerStudio.exe` and the `_internal` folder together) and double-click `MeshLayerStudio.exe`.
 4. If Windows shows *"Windows protected your PC"*: the program is not code-signed yet. Click **More info → Run anyway** only if the SHA-256 above matches.
-5. If it says `VCRUNTIME140.dll` / `MSVCP140.dll` is missing, double-click `Install_VC_Runtime.bat` (it opens Microsoft's official download page).
+5. If it says `VCRUNTIME140.dll` / `VCRUNTIME140_1.dll` / `MSVCP140.dll` is missing, or shows "Importing the numpy C-extensions failed" / "DLL load failed" (an older 2015–2017 Visual C++ runtime is not enough), double-click `Install_VC_Runtime.bat` (it opens Microsoft's official download page).
 
 Image-to-3D with AI is **optional** and installed separately from inside the app ("Install the AI runtime…", about 8–10 GB of downloads, NVIDIA GPU with 6 GB or more recommended). Everything else works without it.
 
@@ -68,7 +68,7 @@ It is free and every feature works without paying. If it saves you time you can 
 **把圖片或 3D 模型，在你自己的電腦上轉成可列印的 STL 與多色 3MF。**
 Windows 10／11（64 位元）免費使用。不用註冊、沒有遙測、不會上傳任何東西。
 
-**版本 1.0.3。** 歡迎到 [Issues](https://github.com/MeshLayerStudio-crypto/meshlayer-studio/issues) 回報問題。
+**版本 1.0.5。** 歡迎到 [Issues](https://github.com/MeshLayerStudio-crypto/meshlayer-studio/issues) 回報問題。
 
 ## 功能
 
@@ -89,11 +89,11 @@ Windows 10／11（64 位元）免費使用。不用註冊、沒有遙測、不�
 
 ## 下載與第一次使用
 
-1. 到 [Releases](https://github.com/MeshLayerStudio-crypto/meshlayer-studio/releases/latest) 下載 `MeshLayerStudio_1.0.3_win64.zip`。
-2. **建議驗證檔案**，在 PowerShell 執行 `Get-FileHash .\MeshLayerStudio_1.0.3_win64.zip -Algorithm SHA256`，結果要和發布頁上的 SHA-256 相同。
+1. 到 [Releases](https://github.com/MeshLayerStudio-crypto/meshlayer-studio/releases/latest) 下載 `MeshLayerStudio_1.0.5_win64.zip`。
+2. **建議驗證檔案**，在 PowerShell 執行 `Get-FileHash .\MeshLayerStudio_1.0.5_win64.zip -Algorithm SHA256`，結果要和發布頁上的 SHA-256 相同。
 3. 解壓縮到任一資料夾（`MeshLayerStudio.exe` 與 `_internal` 資料夾要放在一起），雙擊 `MeshLayerStudio.exe`。
 4. 若 Windows 顯示「Windows 已保護您的電腦」：本程式目前尚未做程式碼簽章；**確認 SHA-256 相符後**，點「其他資訊 → 仍要執行」。
-5. 若提示找不到 `VCRUNTIME140.dll`／`MSVCP140.dll`，雙擊 `Install_VC_Runtime.bat`（會開啟 Microsoft 官方下載頁）。
+5. 若提示找不到 `VCRUNTIME140.dll`／`VCRUNTIME140_1.dll`／`MSVCP140.dll`，或出現「Importing the numpy C-extensions failed」「DLL load failed」（舊版 2015–2017 執行庫不夠），雙擊 `Install_VC_Runtime.bat`（會開啟 Microsoft 官方下載頁）。
 
 AI 圖片轉 3D 是**選用功能**，要在程式內另外安裝（「安裝 AI 執行環境…」，約 8–10 GB 下載，建議 6 GB 以上 NVIDIA 顯示卡）。不裝 AI 也能使用其他所有功能。
 
