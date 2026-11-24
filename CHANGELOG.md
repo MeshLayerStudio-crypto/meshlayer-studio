@@ -1,5 +1,11 @@
 # Changelog / 變更記錄
 
+## 1.0.3
+
+- If the program cannot start (for example a missing Microsoft Visual C++ runtime or a blocked numpy file), it now shows a short readable message with the likely cause and saves the full error to `startup_error.log` (in `%LOCALAPPDATA%` under the program's folder) instead of a truncated English dialog.
+
+- 程式無法啟動時（例如缺少 Microsoft Visual C++ 執行庫或 numpy 檔案被擋），改為顯示簡短易懂的訊息與可能原因，並把完整錯誤存到 `startup_error.log`（在 `%LOCALAPPDATA%` 的程式資料夾內），不再是被截斷的英文對話框。
+
 ## 1.0.2
 
 - Import mode: new "Mirror" option (left-right, front-back, up-down).
