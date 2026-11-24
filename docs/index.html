@@ -124,7 +124,9 @@ html[lang="en"] [data-l="en"],html[lang="zh-Hant"] [data-l="zh"]{display:revert}
 <section>
   <h2 data-l="en">Privacy</h2><h2 data-l="zh">隱私</h2>
   <p data-l="en">Images, models and settings stay on your computer. The app connects to the internet only when you use a feature that needs it (for example installing the AI runtime). See the <a href="https://github.com/MeshLayerStudio-crypto/meshlayer-studio/blob/main/PRIVACY_POLICY.en.md">Privacy Policy</a> and <a href="https://github.com/MeshLayerStudio-crypto/meshlayer-studio/blob/main/TERMS_OF_USE.en.md">Terms of Use</a>.</p>
+  <p data-l="en">This web page loads Ko-fi's optional "Support me" widget from ko-fi.com, so your browser contacts Ko-fi when the page opens. Ko-fi's own privacy policy applies to that. The app itself does not use it.</p>
   <p data-l="zh">圖片、模型與設定都留在你的電腦。只有你使用需要連網的功能（例如安裝 AI 環境）時才會連線。詳見<a href="https://github.com/MeshLayerStudio-crypto/meshlayer-studio/blob/main/PRIVACY_POLICY.md">隱私權政策</a>與<a href="https://github.com/MeshLayerStudio-crypto/meshlayer-studio/blob/main/TERMS_OF_USE.md">使用條款</a>。</p>
+  <p data-l="zh">本網頁會從 ko-fi.com 載入選用的「Support me」贊助小工具，因此開啟網頁時你的瀏覽器會連線到 Ko-fi，適用 Ko-fi 自己的隱私權政策。程式本身不使用它。</p>
 </section>
 
 <footer>
@@ -144,6 +146,15 @@ function setLang(l){
   if(!l)l=(navigator.language||'').toLowerCase().indexOf('zh')===0?'zh-Hant':'en';
   setLang(l);
 })();
+</script>
+<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+<script>
+  kofiWidgetOverlay.draw('meshlayerstudio', {
+    'type': 'floating-chat',
+    'floating-chat.donateButton.text': 'Support me',
+    'floating-chat.donateButton.background-color': '#f45d22',
+    'floating-chat.donateButton.text-color': '#fff'
+  });
 </script>
 </body>
 </html>
