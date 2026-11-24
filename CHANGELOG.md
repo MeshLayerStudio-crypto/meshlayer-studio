@@ -1,5 +1,19 @@
 # Changelog / 變更記錄
 
+## 1.0.1
+
+- Windows 11: no extra console window when starting the program (the app is now built as a windowed program).
+- AI installer: pip and git now trust the Windows certificate store, which fixes "self-signed certificate" errors when antivirus or a proxy inspects HTTPS.
+- AI installer: Hunyuan3D-2 and Hunyuan3D-2.1 are downloaded at tested versions instead of the latest upstream code.
+- Failure messages now point to GitHub Issues.
+- Third-party notices list the optional TripoSR engine (MIT).
+
+- Windows 11：啟動程式時不再多開 command 視窗（程式改為無主控台的視窗版）。
+- AI 安裝程式：pip 與 git 改用 Windows 憑證庫，修正防毒軟體或代理檢查 HTTPS 時出現的「self-signed certificate」錯誤。
+- AI 安裝程式：Hunyuan3D-2 與 Hunyuan3D-2.1 改為下載測試過的固定版本，不再抓上游最新程式碼。
+- 失敗訊息改為指向 GitHub Issues。
+- 第三方聲明新增選用的 TripoSR 引擎（MIT）。
+
 ## 1.0
 
 - First public release (Windows 10 / 11, 64-bit). See the Release page for the download and SHA-256.
