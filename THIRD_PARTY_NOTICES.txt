@@ -231,6 +231,12 @@ that single file (about 230 KB) from Bambu's public GitHub repository to the use
 The program does not distribute or forward Bambu's data. Bambu Lab and Bambu Studio are trademarks of their owner; this product is not affiliated
 with or endorsed by Bambu Lab (Bambu Studio is AGPL-3.0).
 
+Creality filament color table: NOT bundled. Only when the user picks a Creality printer plate (or uses the Help menu) and agrees, the program reads
+the filament color file of the user's own installed Creality Print (filaments_color.json); if Creality Print is not installed it can download that
+single file (about 60 KB) from Creality's public GitHub repository (CrealityOfficial/CrealityPrint) to the user's own data folder, and keeps a
+cache there. The program does not distribute or forward Creality's data. Creality and Creality Print are trademarks of their owner; this product
+is not affiliated with or endorsed by Creality (Creality Print is AGPL-3.0).
+
 core\printer_caps.py - number of filament slots per printer model: facts compiled by the author from public pages, with a source and a
 confidence note for each entry; not copied from any vendor or open-source data file. Not official specifications.
 
