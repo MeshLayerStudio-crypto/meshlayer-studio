@@ -1,5 +1,31 @@
 # Changelog / 變更記錄
 
+## 1.0.7
+
+- New Combine and pattern tools: import a part, scale, cut holes, mirror, array-copy and combine (union / difference / intersection); tick "Place" in the 3D view and click the model surface to put a part there.
+- Roomier 3D view: collapsible multicolor section and log, an Enlarge button, a one-row toolbar that folds into a "⋯" menu on narrow windows.
+- Multi-view images with gradient or shaded backgrounds are split into panels correctly; a very wide image that cannot be split now gets a clear warning.
+- A clear message when the NVIDIA driver is too old for the AI engine (shows your driver version; version 560 or newer is needed).
+- Optional Creality Print filament color table.
+- Terms of Use and Privacy Policy v2.5.
+
+- 新增組合與陣列工具：匯入零件、縮放、挖孔、鏡像、陣列複製，並做聯集／差集／交集；在 3D 檢視勾選「放置」後點模型表面就能放上零件。
+- 3D 檢視空間更大：多色區與日誌可收合、新增「放大」、工具列一排顯示，視窗太窄時收進「⋯」選單。
+- 背景有漸層或陰影的多視角圖片現在能正確分格；太寬而切不出視角的圖片會有明確警告。
+- NVIDIA 驅動太舊、無法使用 AI 引擎時，直接提示並顯示目前驅動版本（需 560 版以上）。
+- 選用的 Creality Print 耗材色表。
+- 使用條款與隱私權政策更新為 v2.5。
+
+## 1.0.6
+
+- New Measure tool in the 3D viewer: click two points on the model surface to get the straight-line distance and the X / Y / Z differences.
+- New base edge option (chamfer or round, size in mm, 0 = none) for the round, oval and name-plate base. The default is still a 0.8 mm chamfer; the name plate now gets it too.
+- The straw hole can be round, square or hexagonal.
+
+- 3D 檢視新增量測工具：在模型表面點兩個點，得到直線距離與 X／Y／Z 三軸差。
+- 新增底座邊緣選項（倒角或圓角，大小 mm，0＝不處理），適用圓形、橢圓與銘牌底座。預設仍是 0.8 mm 倒角；銘牌現在也有。
+- 吸管孔可選圓孔、方孔或六角孔。
+
 ## 1.0.5
 
 - Fixed: the AI installer failed at the first step on computers with an older pip (for example Python 3.12.1), with "'truststore' must be installed into pip's current environment". The installer now installs truststore first and only then turns the Windows-certificate option on.
