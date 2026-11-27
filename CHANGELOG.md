@@ -1,5 +1,15 @@
 # Changelog / 變更記錄
 
+## 1.0.8
+
+- New Preview panel in the color editor (view only, exported files are unchanged): section view along X / Y / Z, show or hide parts, single-color view, exploded view, and playback (turntable, explode pulse, section sweep) with speed sliders.
+- The speed test is more useful: choose 3, 8 or 15 seconds; it reports warm-up separately, the 99th-percentile frame time, dropped frames, picking cost and a plain-language verdict.
+- Fixed: the color editor's language button no longer changes the main window's language.
+
+- 色彩編輯器新增預覽面板（只改畫面，不影響輸出的檔案）：沿 X／Y／Z 剖面、零件顯示、單色檢視、爆炸圖，以及播放（轉盤旋轉、爆炸圖呼吸、剖面掃過，各有速度滑桿）。
+- 速度測試更實用：可選 3、8、15 秒，暖機另外列出，並提供 99 百分位幀時間、掉格張數、選面耗時與白話結論。
+- 修正：色彩編輯器的語言按鈕不再改到主視窗的語言。
+
 ## 1.0.7
 
 - New Combine and pattern tools: import a part, scale, cut holes, mirror, array-copy and combine (union / difference / intersection); tick "Place" in the 3D view and click the model surface to put a part there.
